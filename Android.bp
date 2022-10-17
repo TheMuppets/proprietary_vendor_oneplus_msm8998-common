@@ -26,46 +26,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "liblbs_core",
-	owner: "oneplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/liblbs_core.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/liblbs_core.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libloc_api_v02",
-	owner: "oneplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libloc_api_v02.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libloc_api_v02.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libqmi_cci",
 	owner: "oneplus",
 	strip: {
@@ -373,6 +333,15 @@ dex_import {
 	owner: "oneplus",
 	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
 	system_ext_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.gnss@2.0-service-qti",
+	owner: "oneplus",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
 }
 
 prebuilt_etc_xml {
