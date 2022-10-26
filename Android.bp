@@ -290,13 +290,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "vendor.qti.hardware.sensorscalibrate-V1.0-java",
-	owner: "oneplus",
-	jars: ["proprietary/product/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar"],
-	product_specific: true,
-}
-
-dex_import {
 	name: "com.qti.dpmframework",
 	owner: "oneplus",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
