@@ -798,16 +798,16 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
-    SoterService \
-    IFAAService \
     CACertService \
     CneApp \
     IWlanService \
     TimeService \
+    SoterService \
     PowerOffAlarm \
     QtiTelephonyService \
     imssettings \
     uceShimService \
+    IFAAService \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
