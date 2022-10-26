@@ -290,12 +290,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "audiosphere",
-	owner: "oneplus",
-	jars: ["proprietary/framework/audiosphere.jar"],
-}
-
-dex_import {
 	name: "vendor.qti.hardware.sensorscalibrate-V1.0-java",
 	owner: "oneplus",
 	jars: ["proprietary/product/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar"],
