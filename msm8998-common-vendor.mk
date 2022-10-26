@@ -8,7 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
     vendor/oneplus/msm8998-common/proprietary/vendor/firmware/mbn_ota/mbn_ota.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mbn_ota.txt \
-    vendor/oneplus/msm8998-common/proprietary/etc/firmware/tp/fw_synaptics_17801.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tp/fw_synaptics_17801.img \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
     vendor/oneplus/msm8998-common/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
     vendor/oneplus/msm8998-common/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
