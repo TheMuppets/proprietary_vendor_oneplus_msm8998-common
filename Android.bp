@@ -7984,7 +7984,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.dpm.api@1.0",
+    name: "com.qualcomm.qti.dpm.api@1.0_vendor",
+    stem: "com.qualcomm.qti.dpm.api@1.0",
     owner: "oneplus",
     strip: {
         none: true,
@@ -9738,7 +9739,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libhardware_legacy",
                 "libhardware",
-                "com.qualcomm.qti.dpm.api@1.0",
+                "com.qualcomm.qti.dpm.api@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -15408,7 +15409,7 @@ cc_prebuilt_binary {
                 "libqmi_client_helper",
                 "libqmiservices",
                 "libdpmqmihal",
-                "com.qualcomm.qti.dpm.api@1.0",
+                "com.qualcomm.qti.dpm.api@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",

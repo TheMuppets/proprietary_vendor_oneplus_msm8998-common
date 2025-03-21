@@ -370,7 +370,7 @@ PRODUCT_PACKAGES += \
     libstblur_capture_api \
     libvqzip \
     libasphere \
-    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
     com.qualcomm.qti.imscmservice@2.2 \
