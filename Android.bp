@@ -8877,7 +8877,7 @@ cc_prebuilt_library_shared {
                 "librcc",
                 "libion",
                 "libhidlbase",
-                "vendor.qti.imsrtpservice@3.0",
+                "vendor.qti.imsrtpservice@3.0_vendor",
                 "vendor.qti.imsrtpservice@3.0-service-Impl",
                 "libdiag",
                 "libcutils",
@@ -14294,7 +14294,7 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "libhidlbase",
                 "libdiag",
-                "vendor.qti.imsrtpservice@3.0",
+                "vendor.qti.imsrtpservice@3.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -14308,7 +14308,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.imsrtpservice@3.0",
+    name: "vendor.qti.imsrtpservice@3.0_vendor",
+    stem: "vendor.qti.imsrtpservice@3.0",
     owner: "oneplus",
     strip: {
         none: true,
@@ -15980,7 +15981,7 @@ cc_prebuilt_binary {
                 "libqmiservices",
                 "libqmi_csi",
                 "libqmi_cci",
-                "vendor.qti.imsrtpservice@3.0",
+                "vendor.qti.imsrtpservice@3.0_vendor",
                 "vendor.qti.imsrtpservice@3.0-service-Impl",
                 "libutils",
                 "libhidlbase",
