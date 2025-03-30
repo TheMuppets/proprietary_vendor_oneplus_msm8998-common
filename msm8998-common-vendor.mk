@@ -202,6 +202,8 @@ PRODUCT_PACKAGES += \
     libadsp_hvx_stub \
     libarcsoft_dualcam_bokeh_api \
     libarcsoft_hdr_denoise_api \
+    libarcsoft_high_dynamic_range \
+    libarcsoft_smart_denoise \
     libaudcal \
     libaudioalsa \
     libaudioparsers \
