@@ -145,9 +145,7 @@ PRODUCT_PACKAGES += \
     libfastcvadsp_stub \
     libfastcvopt \
     libfastrpc_utf_stub \
-    libgpustats \
     libgsl \
-    libhdr_tm \
     libidl \
     libllvm-glnext \
     libmdmdetect \
@@ -161,7 +159,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_faceproc \
     libmmcamera_faceproc2 \
     libmmcamera_tintless_algo \
-    libqcci_legacy \
     libqdi \
     libqdp \
     libqmi \
@@ -172,7 +169,6 @@ PRODUCT_PACKAGES += \
     libqmi_csi \
     libqmi_encdec \
     libqmiservices \
-    libsdedrm \
     libsdm-disp-vndapis \
     libsdsprpc \
     libseemore \
@@ -267,7 +263,6 @@ PRODUCT_PACKAGES += \
     libchromatix_imx398_isp_manual \
     libchromatix_imx398_isp_panorama \
     libchromatix_imx398_postproc \
-    libcppf \
     libcvface_api \
     libdrc \
     libflash_pmic \
@@ -368,7 +363,6 @@ PRODUCT_PACKAGES += \
     libqtigef \
     libsmwrapper \
     libstblur_capture_api \
-    libvqzip \
     libasphere \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0 \
@@ -434,6 +428,7 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgps.utils \
     libhdcpsrm \
+    libhdr_tm \
     libizat_client_api \
     libizat_core \
     libjnihelper \
@@ -493,7 +488,6 @@ PRODUCT_PACKAGES += \
     libtinyxml2_1 \
     libtzdrmgenprov \
     libwms \
-    libwqe \
     libwvhidl \
     libxml \
     libxtadapter \
