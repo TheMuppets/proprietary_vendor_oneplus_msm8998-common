@@ -177,6 +177,8 @@ PRODUCT_PACKAGES += \
     libsns_low_lat_stream_stub \
     libssc_default_listener \
     libthermalclient \
+    libvpphvx \
+    libvpplibrary \
     sensor_calibrate \
     sensors.ssc \
     vendor.qti.hardware.fingerprint@1.0 \

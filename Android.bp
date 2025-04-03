@@ -707,6 +707,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libmm-omxcore",
                 "libqdMetaData",
+                "libvpplibrary",
                 "libc++",
                 "libc",
                 "libm",
@@ -724,6 +725,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libmm-omxcore",
                 "libqdMetaData",
+                "libvpplibrary",
                 "libc++",
                 "libc",
                 "libm",
@@ -732,7 +734,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -2565,6 +2566,94 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libcutils",
                 "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvpphvx",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libvpphvx.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libadsprpc",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libvpphvx.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libadsprpc",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvpplibrary",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libvpplibrary.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libqdMetaData",
+                "libvpphvx",
+                "libadsprpc",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libvpplibrary.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libqdMetaData",
+                "libvpphvx",
+                "libadsprpc",
                 "libc++",
                 "libc",
                 "libm",
