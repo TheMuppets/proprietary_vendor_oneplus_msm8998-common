@@ -179,7 +179,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     sensor_calibrate \
     sensors.ssc \
-    vendor.oneplus.fingerprint.extension@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
     vendor.qti.hardware.sensorscalibrate@1.0 \
     libCB \
@@ -498,8 +497,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
     vendor.display.postproc@1.0 \
-    vendor.oneplus.camera.CameraHIDL@1.0 \
-    vendor.oneplus.hardware.drmkey@1.0 \
     vendor.oneplus.hardware.ifaa@2.0 \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
