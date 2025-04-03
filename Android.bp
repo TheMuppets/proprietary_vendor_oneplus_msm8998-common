@@ -14338,6 +14338,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/lib-imscamera.so",
             ],
             shared_libs: [
+                "libgui_shim",
                 "libcutils",
                 "libutils",
                 "liblog",
@@ -14374,7 +14375,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     system_ext_specific: true,
 }
