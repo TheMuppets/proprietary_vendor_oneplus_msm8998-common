@@ -393,6 +393,7 @@ PRODUCT_PACKAGES += \
     lib-imsrcsbaseimpl \
     lib-imsvtcore \
     lib-imsxml \
+    lib-rcsconfig \
     lib-rtpcommon \
     lib-rtpcore \
     lib-rtpsl \

@@ -8602,6 +8602,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libqmiservices",
                 "libqti_vndfwk_detect",
+                "lib-rcsconfig",
                 "libidl",
                 "com.qualcomm.qti.imscmservice@2.0",
                 "com.qualcomm.qti.uceservice@2.0",
@@ -8624,7 +8625,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -8722,6 +8722,45 @@ cc_prebuilt_library_shared {
                 "lib-imsdpl",
                 "libcutils",
                 "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "lib-rcsconfig",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/lib-rcsconfig.so",
+            ],
+            shared_libs: [
+                "lib-imsdpl",
+                "libqmi_cci",
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libqmiservices",
+                "libqmi_csi",
+                "libdiag",
+                "libhidlbase",
+                "libhardware_legacy",
+                "libqti_vndfwk_detect",
+                "vendor.qti.ims.rcsconfig@2.0",
+                "vendor.qti.ims.rcsconfig@2.1",
+                "vendor.qti.ims.factory@1.0",
+                "vendor.qti.ims.factory@1.1",
                 "libc++",
                 "libc",
                 "libm",
